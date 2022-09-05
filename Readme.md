@@ -12,11 +12,16 @@ The background of the project is to run the report using the 12 different ticker
 ### Analysis
 
 For the analysis of this project, we used the stock trading data from 2017 and 2018.  I designed the code to analysis the information automatically in a systematic order. Initially defined the required variables, input box to filter the required information based on year, created tickers, used a Nested For loop to get the daily volume and return values for the stocks and formatted the results derived from the code for easy reference. The code was refactored to reduce the time taken to run the report. Here is the final code used for the project to reduce the processing time.
-![This is an image]C:/Users/aykkaraj/Downloads/Data Analysis/VBA/Module 2 Challenge/Resources/Code used.JPG
+![This is an image](https://github.com/Josna-Aykkara/Stock-analysis./blob/main/Resources/Code%20used.JPG)
 
  
 
 •Based on the 2017 data, we discovered that most of the stocks traded had a positive return and were considered reliable investments especially the stock for DQ as it had a return of 199.4%. But as the 2018 finding, the stocks traded mostly had a negative return except for ENPH and RUN stocks. The DQ stocks also had a negative return of -62.6% which alerts us that the stocks are volatile and can change quickly based on the various factors in 2018. You can view the differences for the stocks in 2017 and 2018 from the below summary of stock performance.
+
+![This is an image](https://github.com/Josna-Aykkara/Stock-analysis./blob/main/Resources/Performance%20of%20stock%20in%202017.JPG)
+
+![This is an image](https://github.com/Josna-Aykkara/Stock-analysis./blob/main/VBA_hallenge_2018(latest).jpg)
+
  
 •The original code was refactored to make it more efficient and quicker. The main transformation was due to the creation of the arrays- tickerIndex and tickerVolumes which allowed to loop across the rows based on the If condition embedded in the loop. It enabled to increase the tickerVolumes based on the ticker that is stocks for the year. As a result of the refactored code, the run time has reduced and would enable to run efficiently with more dataset (more tickers). The processing time reduced from 0.2898437 seconds to 0.1445313 seconds. 
  
