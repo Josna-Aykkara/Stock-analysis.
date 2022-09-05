@@ -1,17 +1,19 @@
-Overview of Project
+# Overview of Project
 
-Purpose
+## Purpose
 The main objective of the project is to refactor the VBA code to make it more efficient to retrieve information from the dataset based on stocks for the two years 2018 and 2017. The purpose was to help in the decision-making process whether to invest in these stocks based on the total volume and return for years 2018 and 2017. The code also enables to retrieve reports on larger set of data if required.
 
-Background
+## Background
 The background of the project is to run the report using the 12 different tickers and various information’s such as date of trading, opening & closing prices, volume of trade, etc. for the multiple stocks traded in 2018 and 2017. The data set is used to summarise the information more accurately such as total daily volume and return on each stock to facilitate the decision process at a glance.
 
 
-Results
+## Results
 
-Analysis
+### Analysis
 
 For the analysis of this project, we used the stock trading data from 2017 and 2018.  I designed the code to analysis the information automatically in a systematic order. Initially defined the required variables, input box to filter the required information based on year, created tickers, used a Nested For loop to get the daily volume and return values for the stocks and formatted the results derived from the code for easy reference. The code was refactored to reduce the time taken to run the report. Here is the final code used for the project to reduce the processing time.
+![This is an image]C:/Users/aykkaraj/Downloads/Data Analysis/VBA/Module 2 Challenge/Resources/Code used.JPG
+
  
 
 •Based on the 2017 data, we discovered that most of the stocks traded had a positive return and were considered reliable investments especially the stock for DQ as it had a return of 199.4%. But as the 2018 finding, the stocks traded mostly had a negative return except for ENPH and RUN stocks. The DQ stocks also had a negative return of -62.6% which alerts us that the stocks are volatile and can change quickly based on the various factors in 2018. You can view the differences for the stocks in 2017 and 2018 from the below summary of stock performance.
